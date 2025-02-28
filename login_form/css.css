@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 400px;
+    background-color: rgba(226, 223, 223, 0.8);
+   margin: auto;
+
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 22vh;
+}
+.form {
+    width: 320px;
+    max-width: 100%;
+    padding: 24px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   font-size: 14px;
+
+}
+.email, .password {
+    display: flex;
+    flex-direction: column;
+}
+.text-pass {
+    display: flex;
+    justify-content: space-between;
+    > a {
+        color: var(--link-color, #007AFF);
+    }
+}
+.form button {
+    border-radius: 8px;
+    background: var(--iOS-Blue, #007AFF);
+    padding: 8px;
+    border: none;
+    color: white;
+} 
+p {
+    display: flex;
+    gap: 8px;
+}
+p a {
+    color: var(--link-color, #007AFF);
+    text-align: center;
+    text-decoration: none;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #eee;
+
+}
